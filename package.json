@@ -1,0 +1,20 @@
+{
+  "name": "33.nodejs",
+  "version": "1.0.0",
+  "description": "File handling",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Om Balapure",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-zip": "^3.0.0",
+    "zip-local": "^0.3.5"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
