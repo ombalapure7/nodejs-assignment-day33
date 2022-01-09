@@ -8,9 +8,6 @@ require("dotenv").config();
 const port = process.env.PORT || 5000;
 const absPath = path.join(__dirname, './assets');
 
-/**
- * @desc  PART 2: Creating an HTTP server and download the files
- */
 app.get("/", (req, res) => {
   res.send(`
     <h1>Guvi NodeJS Task - Session 33</h1>
@@ -54,6 +51,9 @@ app.get("/create", (req, res) => {
   `);
 });
 
+/**
+ * @desc  PART 2: Creating an HTTP server and download the files
+ */
 app.get('/download', (req, res) => {
   // Compress all the files under assets/
   console.log("ABS PATH:", absPath);
